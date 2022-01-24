@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;800&display=swap');
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    background-color: #661617;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+section {
+    width: 95%;
+    display: grid;
+    padding: 0 50px 0 50px;
+}
+
+.header {
+    height: 200px;
+    display: flex;
+    padding: 10px;
+}
+
+.aa {
+    padding: 10px;
+}
+
+.aa img {
+    height: 150px;
+}
+
+.b {
+    padding: 10px;
+    font-family: 'Saira', sans-serif;
+    color: white;
+}
+
+.mid {
+    width: 100%;
+}
+
+.carousel {
+    height: 350px;
+    width: 100%;
+}
+
+.carousel-item,
+.carousel-inner {
+    height: 350px;
+    width: 100%;
+    align-content: center;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 1020px;
+    margin-left: 335px;
+}
+
+.btns {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+}
+
+.bttn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.bttn button {
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 20px 100px 20px 100px;
+}
+
+#b:hover {
+    background-color: gray;
+    border: solid 1px black;
+}
+
+#b {
+    background-color: white;
+    border: 1px solid black;
+}
+
+a:link,
+a:visited {
+    width: 400px;
+    height: 60px;
+    margin: 20px 100px 20px 100px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    padding: 17px;
+}
+
+a:hover,
+a:active {
+    background-color: gray;
+}
+
+.aside {
+    justify-content: center;
+    display: grid;
+    font-family: 'Saira', sans-serif;
+    font-size: 40pt;
+    width: 5%;
+    background-color: #c4c4c4;
+    margin: 0 50px 0 0;
+}
+
+@media only screen and (max-width:1200px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        background-color: #661617;
+    }
+    main {
+        width: 100%;
+        display: grid;
+    }
+    section {
+        width: 100%;
+        display: grid;
+    }
+    .carousel {
+        height: 350px;
+        width: 100%;
+        padding: 1%;
+    }
+    .carousel-item,
+    .carousel-inner {
+        height: 350px;
+        width: 100%;
+        align-content: center;
+    }
+    .carousel-item img {
+        height: 100%;
+        width: 450px;
+        margin-left: 160px;
+    }
+    .aside {
+        display: none;
+    }
+    .bttn {
+        width: 50px;
+        display: grid;
+    }
+    .btns {
+        display: grid;
+    }
+    .mid {
+        width: 100%;
+        padding: 10px;
+    }
+    .aa {
+        padding: 10px;
+    }
+    .aa img {
+        height: 100px;
+    }
+}
