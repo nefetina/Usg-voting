@@ -71,8 +71,8 @@
                     <input type="file" class="img" id="img">
                 </div>
             </div>
-            <div class="form-row ">
-                <div class="form-group row-cols-15">
+            <div class="formss">
+                <div class="formss">
                     <label for="desc">DESCRIBE YOURSELF:</label>
                     <input type="text" name="lala" id="desc">
                 </div>
