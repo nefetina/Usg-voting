@@ -1,7 +1,8 @@
 <?php
 
 if(array_key_exists('submit', $_POST)) {
-    submit();
+    submit();}
+
 
 function submit(){
     $dbhost = "localhost:3307";
@@ -23,11 +24,11 @@ function submit(){
     $course = $_POST['course'];
     $position = $_POST['position'];
     $partylist = $_POST['partylist'];
-    $img = $_POST['img'];
-    $desc = $_POST['desc'];
+    //$img = $_POST['img'];
+    $lala = $_POST['lala'];
 
-    if(!empty($firstname) && !empty($surname) && !empty($age) && !is_numeric($age) && !empty($gender) && !empty($position) && !empty($partylist) && !empty($img) && !empty($desc) && !empty($course))
-    {
+    
+    
         // sql search the sub_code
         $sql = "SELECT firstname,surname FROM application WHERE surname = '$surname' AND firstname = '$firstname' limit 1";
         $result = (mysqli_query($con, $sql));
@@ -42,8 +43,8 @@ function submit(){
             }
             else 
             {
-              
-                $sql = "INSERT into application (firstname,surname,course,age,position,partylist,img,desc) values ('$firstname','$surname','$course','$age','$position',$partylist','$img','$desc')";
+                $img = 0;
+                $sql = "INSERT into application (firstname,surname,course,age,position,partylist,img,lala) values ('$firstname','$surname','$course','$age','$position','$partylist','$img','$lala')";
                 $result = (mysqli_query($con, $sql));
 
                 // Display the alert box 
@@ -52,15 +53,8 @@ function submit(){
             }
         }
         
-    }
-    else 
-    {
-
-        // Display the alert box 
-        echo "<script>alert('Complete all fields');</script>";
-
-    }
+    
 }
-}
+
 
 ?>

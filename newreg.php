@@ -80,7 +80,7 @@ session_start();
             </div>
 
             <button class="btn" id="pindot" type="submit">Sign Up</button>
-            <p>Already had an account?<a href="login.php">Log In</a></p>
+            <p>Already had an account?<a href="index.php">Log In</a></p>
 
         </div>
 

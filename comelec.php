@@ -44,62 +44,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>22</td>
-                        <td>BSIE-ICT-2A</td>
-                        <td>President</td>
-                        <td>None</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>22</td>
-                        <td>BSME-2A</td>
-                        <td>Vice President</td>
-                        <td>Manalo</td>
-
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>Gonzales</td>
-                        <td>20</td>
-                        <td>BET-COET-NS-2B</td>
-                        <td>President</td>
-                        <td>None</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">4</th>
-                        <td>Shiela</td>
-                        <td>Crus</td>
-                        <td>22</td>
-                        <td>BSIE-ICT-3B</td>
-                        <td>President</td>
-                        <td>None</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">5</th>
-                        <td>Ankol</td>
-                        <td>Badi</td>
-                        <td>25</td>
-                        <td>BSIE-ICT-3A</td>
-                        <td>Senator</td>
-                        <td>None</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">6</th>
-                        <td>Lisa</td>
-                        <td>Perez</td>
-                        <td>23</td>
-                        <td>BSCE-3B</td>
-                        <td>Treasurer</td>
-                        <td>Manalo</td>
-                    </tr>
+                    
                 </tbody>
             </table>
         </div>
